@@ -1,0 +1,11 @@
+.mz-header-item-link {
+	font-size: .75rem;
+	@include media-breakpoint-up(md) {
+		padding: .4rem 1.4rem;
+	}
+}
+
+// aktywna pozycja manu
+.mz-header-item-active {
+	background-color: $mz-white;
+}

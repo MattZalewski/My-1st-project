@@ -1,0 +1,21 @@
+.mz-hero {
+	position: relative;
+	margin-bottom: 0;
+	background: url('../images/bg/header_photo_big.jpg') 50% 50% no-repeat;
+	background-size: cover;
+	&:after {
+		@include mz-bg-overlay($mz-black, .1);
+	}
+}
+
+.mz-hero-content {
+	@include mz-relative-zindex;
+}
+
+.mz-hero-header {
+	margin-bottom: 1rem;
+	letter-spacing: .5rem;
+	@include media-breakpoint-up(md) {
+		font-size: 3rem;
+	}
+}

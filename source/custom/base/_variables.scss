@@ -1,0 +1,47 @@
+// wlasne zmienne - kolory
+$mz-accent-color: #333333;
+$mz-gray-100: #F8F8F8;
+$mz-gray-200: #EEEEEE;
+$mz-gray-600: #B7B7B7;
+$mz-gray-800: #707070;
+$mz-gray-900: #444444;
+$mz-white: #FFFFFF;
+$mz-black: #000000;
+$mz-input-bg: #FCFCFC;
+$mz-input-border-color: darken($mz-gray-200, 3%);
+$mz-contact-form-shadow: #292C31;
+$mz-product-search-btn-color: #CCCCCC;
+
+// wlasne zmienne tekst
+$mz-font-family-body: 'Lato';
+$mz-font-family-secondary: 'Oswald';
+
+// kolory bootstrap 4.5
+$theme-colors: (
+	"primary": $mz-accent-color
+);
+$gray-100: $mz-gray-100;
+$gray-200: $mz-gray-200;
+$gray-600: $mz-gray-600;
+$gray-800: $mz-gray-800;
+$gray-900: $mz-gray-900;
+
+// obramowania
+$border-radius: 0;
+$border-radius-lg: 0;
+$border-radius-sm: 0;
+
+// elementy tekstowe
+$font-family-sans-serif: $mz-font-family-body;
+$headings-font-family: $mz-font-family-secondary;
+$headings-font-weight: 700;
+$font-size-base: .875rem;
+$line-height-base: 1.75;
+$font-size-sm: ($font-size-base * .75);
+$h2-font-size: 2.143rem;
+$h3-font-size: 1.375rem;
+$h4-font-size: 1rem;
+$h5-font-size: .875rem;
+
+// jumbotron
+$jumbotron-padding: 10rem;

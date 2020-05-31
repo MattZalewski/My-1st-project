@@ -1,0 +1,55 @@
+// gorny wiersz stopki
+.mz-footer-top {
+	position: relative;
+	padding: 10px 0 10px;
+	background: $mz-accent-color;
+	background-size: cover;
+}
+
+.mz-footer-text {
+	font-size: .75rem;
+	color: $gray-600;
+}
+
+.mz-footer-p {
+	line-height: 2;
+}
+
+// kolumna kontakt
+.mz-footer-contact-list {
+	margin-bottom: .75rem;
+}
+
+.mz-footer-contact-item {
+	padding: .2rem 0;
+}
+
+.mz-social-box {
+	@include mz-size(26px, 26px)
+}
+
+// kolumna newsletter
+.mz-newsletter-form-group {
+	margin-bottom: .75rem;
+}
+
+.mz-newsletter-form-control {
+	height: 1.55rem;
+	font-size: .75rem;
+}
+
+.mz-newsletter-btn {
+	padding: .25rem 1rem;
+	font-size: .9rem;
+}
+
+// copyright
+.mz-copyright {
+	padding: 1rem 0;
+	font-size: .625rem;
+}
+
+.mz-copyright-second {
+	margin-top: .625rem;
+	font-size: .5625rem;
+}
